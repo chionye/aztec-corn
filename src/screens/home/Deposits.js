@@ -155,6 +155,7 @@ export default Deposits = ({ navigation }) => {
                   mode={"outlined"}
                   outlineColor={"#00000022"}
                   keyboardType='numeric'
+                  style={styles.textInput}
                   onChangeText={(text) => setAmount(text)}
                 />
               </View>
@@ -164,6 +165,7 @@ export default Deposits = ({ navigation }) => {
                   value={bname}
                   mode={"outlined"}
                   outlineColor={"#00000022"}
+                  style={styles.textInput}
                   onChangeText={(text) => setBname(text)}
                 />
               </View>
@@ -174,6 +176,7 @@ export default Deposits = ({ navigation }) => {
                   mode={"outlined"}
                   keyboardType='numeric'
                   outlineColor={"#00000022"}
+                  style={styles.textInput}
                   onChangeText={(text) => setReceipient(text)}
                 />
               </View>
@@ -183,6 +186,7 @@ export default Deposits = ({ navigation }) => {
                   value={rname}
                   mode={"outlined"}
                   outlineColor={"#00000022"}
+                  style={styles.textInput}
                   onChangeText={(text) => setRname(text)}
                 />
               </View>
@@ -192,6 +196,7 @@ export default Deposits = ({ navigation }) => {
                   value={routNo}
                   mode={"outlined"}
                   outlineColor={"#00000022"}
+                  style={styles.textInput}
                   onChangeText={(text) => setRoutNo(text)}
                 />
               </View>
@@ -201,6 +206,7 @@ export default Deposits = ({ navigation }) => {
                   value={swift}
                   mode={"outlined"}
                   outlineColor={"#00000022"}
+                  style={styles.textInput}
                   onChangeText={(text) => setSwift(text)}
                 />
               </View>
@@ -210,6 +216,7 @@ export default Deposits = ({ navigation }) => {
                   value={desc}
                   mode={"outlined"}
                   outlineColor={"#00000022"}
+                  style={styles.textInput}
                   onChangeText={(text) => setDesc(text)}
                 />
               </View>
@@ -258,6 +265,9 @@ const styles = StyleSheet.create({
     fontSize: 40,
     textAlign: "center",
     color: "#FFFFFF",
+  },
+  textInput: {
+    backgroundColor: "#FFFFFF",
   },
   spacingTop: {
     marginTop: 40,

@@ -281,6 +281,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     padding: 0,
     marginTop: 30,
+    backgroundColor: "#FFF",
   },
   largeText: {
     fontSize: 30,
