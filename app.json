@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "MyBank",
+    "slug": "mybank",
+    "version": "1.0.0",
+    "userInterfaceStyle": "light",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "*/"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#1434A4"
+      },
+      "package": "com.chionye.MyBank"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5685ad46-4100-4d3a-a75b-ba9aad28e22a"
+      }
+    },
+    "owner": "chionye"
+  },
+  "name": "MyBank"
+}
